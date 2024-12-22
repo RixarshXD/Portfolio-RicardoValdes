@@ -14,6 +14,12 @@ export const Header = () => {
               <li>
                 <a
                   href="#home"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    document.querySelector("#home").scrollIntoView({
+                      behavior: "smooth",
+                    });
+                  }}
                   className="hover:text-primary transition-colors"
                 >
                   Inicio
@@ -22,6 +28,12 @@ export const Header = () => {
               <li>
                 <a
                   href="#about"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    document.querySelector("#about").scrollIntoView({
+                      behavior: "smooth",
+                    });
+                  }}
                   className="hover:text-primary transition-colors"
                 >
                   Sobre mi
@@ -30,6 +42,12 @@ export const Header = () => {
               <li>
                 <a
                   href="#projects"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    document.querySelector("#projects").scrollIntoView({
+                      behavior: "smooth",
+                    });
+                  }}
                   className="hover:text-primary transition-colors"
                 >
                   Proyectos
@@ -38,6 +56,12 @@ export const Header = () => {
               <li>
                 <a
                   href="#contact"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    document.querySelector("#contact").scrollIntoView({
+                      behavior: "smooth",
+                    });
+                  }}
                   className="hover:text-primary transition-colors"
                 >
                   Contacto
@@ -47,7 +71,6 @@ export const Header = () => {
           </nav>
 
           <button onClick={() => setIsOpen(!isOpen)} className="md:hidden">
-            {" "}
             <svg
               className="w-6 h-6"
               fill="none"
