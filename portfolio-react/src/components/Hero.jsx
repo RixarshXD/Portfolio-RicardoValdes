@@ -19,7 +19,7 @@ export const Hero = () => {
               behavior: "smooth",
             });
           }}
-          className="bg-black text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-secondary transition-colors "
+          className="bg-black text-white px-8 py-3 rounded-full text-lg font-semibold hover:bg-secondary transition-colors"
         >
           Contáctame
         </a>

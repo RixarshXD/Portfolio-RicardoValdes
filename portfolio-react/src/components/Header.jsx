@@ -5,7 +5,7 @@ export const Header = () => {
 
   return (
     <>
-      <header className="bg-dark text-dark py-4 fixed w-full z-10">
+      <header className="shadow-lg bg-dark text-dark py-4 fixed w-full z-10 bg-slate-100">
         <div className="container mx-auto px-4 flex justify-between items-center">
           <h1 className="text-2xl font-bold text-primary">RV</h1>
 

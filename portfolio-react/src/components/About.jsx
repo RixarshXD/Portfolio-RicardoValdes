@@ -1,4 +1,5 @@
 import foto from "../img/foto.jpg";
+import { LinksRedes } from "./LinksRedes";
 
 export const About = () => {
   return (
@@ -27,7 +28,9 @@ export const About = () => {
                 tecnologias
               </p>
             </div>
-            <div>PONER REDES SOCIALES AQUIIII!!!</div>
+            <div className="md:w-11/12">
+              <LinksRedes />
+            </div>
           </div>
         </div>
       </div>
